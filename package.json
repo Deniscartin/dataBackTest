@@ -1,0 +1,51 @@
+{
+  "name": "datawared-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "rm -rf dist && webpack --config webpack.babel.js --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mailgen": "^2.0.27",
+    "mongodb-memory-server": "^8.10.2",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "otp-generator": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-export-default-from": "^7.12.13",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "mup": "^1.5.5",
+    "mup-node": "^0.8.1",
+    "nodemon": "^2.0.14",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
